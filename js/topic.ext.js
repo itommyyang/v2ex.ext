@@ -138,8 +138,8 @@ TopicExt.prototype.decomposeReply = function ($r) {
   self.addAvatarTip(reply.$avatar, reply.username);
 
   if (reply.username == self.topic.by) {
-    reply.$avatar.css('-webkit-box-shadow', '0 0 10px 5px #06c');
-    reply.$avatar.css('box-shadow', '0 0 10px 5px #06c');
+    reply.$avatar.css('-webkit-box-shadow', '0 0 0px 6px #ffc408');
+    reply.$avatar.css('box-shadow', '0 0 0px 6px #ffc408');
   }
 
   reply.replyTime = $('tr>td:last>span', $r).text();
